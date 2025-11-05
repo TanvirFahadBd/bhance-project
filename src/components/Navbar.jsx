@@ -11,16 +11,16 @@ function Navbar() {
                 <div className="flex gap-126">
                     <div className="imagess flex gap-6 items-center">
                      <a href="">   <img src={logo} /></a>
-                        <ul className="font-bold flex gap-6">
-                            <li><a href="">For You</a></li>
-                            <li><a href="">Discover</a></li>
-                            <li><a href="">Livestreams</a></li>
-                            <li><a href="">Hire</a></li>
-                            <li><a href="">Jobs</a></li>
+                        <ul className="font-bold flex gap-6 ">
+                            <li className="hover:text-primary duration-300"><a href="">For You</a></li>
+                            <li className="hover:text-primary duration-300"><a href="">Discover</a></li>
+                            <li className="hover:text-primary duration-300"><a href="">Livestreams</a></li>
+                            <li className="hover:text-primary duration-300"><a href="">Hire</a></li>
+                            <li className="hover:text-primary duration-300"><a href="">Jobs</a></li>
                         </ul>
                     </div>
                     <div className="icons flex items-center gap-3">
-                        <Buttons secondry> sign in </Buttons>
+                        <Buttons secondry Tab='a'> sign in </Buttons>
                         <Buttons primary> sign up </Buttons>
                         <span></span>
                         <CCButtons>

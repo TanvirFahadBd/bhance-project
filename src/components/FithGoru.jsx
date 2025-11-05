@@ -1,18 +1,18 @@
+import GariConteiner from './GariConteiner'
 import gari from "../images/gari.png"
 import like from "../images/Likes (1).png"
 import view from "../images/Views (1).png"
 import thambnail from "../images/Thumbnail.jpg"
-import GariConteiner from "./GariConteiner"
 import sadakala from "../images/sadakala.jpg"
 import goru from "../images/goru.jpg"
 
-function GariImage() {
-    return (
-        <section>
-            <div className="conteiner max-w-348 mx-auto my-4">
-                <div className="grirflex flex   gap-5  ">
-                    <GariConteiner>
-                        <img src={gari} />
+function FithGoru() {
+  return (
+    <section className='border-b-1 border-borderGray'>
+       <div className="conteiner max-w-348 mx-auto my-4">
+         <div className="grirflex flex   gap-5  ">
+        <GariConteiner>
+          <img src={gari} />
                         <div className="imagegroup flex gap-5.25 group justify-between">
                             <div className="per">
                                 <p>2d Arcade style experiments</p>
@@ -23,9 +23,8 @@ function GariImage() {
                                 <img src={view} alt="" />
                             </div>
                         </div>
-
-                    </GariConteiner>
-                    <GariConteiner>
+        </GariConteiner>
+                  <GariConteiner>
                         <img src={thambnail} />
                         <div className="imagegroup flex gap-5.25">
                             <div className="per">
@@ -67,10 +66,10 @@ function GariImage() {
                         </div>
 
                     </GariConteiner>
-                </div>
-            </div>
-        </section>
-    )
+                    </div>
+       </div>
+    </section>
+  )
 }
 
-export default GariImage
+export default FithGoru

@@ -2,7 +2,7 @@
 
 function CCButtons({children}) {
   return (
-    <div>
+    <div className="cursor-pointer">
       {children}
     </div>
   )

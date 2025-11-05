@@ -1,18 +1,18 @@
-import gari from "../images/gari.png"
+import GariConteiner from './GariConteiner'
 import like from "../images/Likes (1).png"
 import view from "../images/Views (1).png"
-import thambnail from "../images/Thumbnail.jpg"
-import GariConteiner from "./GariConteiner"
-import sadakala from "../images/sadakala.jpg"
-import goru from "../images/goru.jpg"
+import Nigga from "../images/Nigga.png"
+import tree from "../images/tree.png"
+import loson from "../images/loson.png";
+import fish from "../images/fish.png";
 
-function GariImage() {
-    return (
-        <section>
-            <div className="conteiner max-w-348 mx-auto my-4">
-                <div className="grirflex flex   gap-5  ">
-                    <GariConteiner>
-                        <img src={gari} />
+function SecondGari() {
+  return (
+    <section>
+       <div className="conteiner max-w-348 mx-auto my-4">
+         <div className="grirflex flex   gap-5  ">
+        <GariConteiner>
+          <img src={Nigga} />
                         <div className="imagegroup flex gap-5.25 group justify-between">
                             <div className="per">
                                 <p>2d Arcade style experiments</p>
@@ -23,10 +23,9 @@ function GariImage() {
                                 <img src={view} alt="" />
                             </div>
                         </div>
-
-                    </GariConteiner>
-                    <GariConteiner>
-                        <img src={thambnail} />
+        </GariConteiner>
+                  <GariConteiner>
+                        <img src={tree} />
                         <div className="imagegroup flex gap-5.25">
                             <div className="per">
                                 <p>2d Arcade style experiments</p>
@@ -40,7 +39,7 @@ function GariImage() {
 
                     </GariConteiner>
                     <GariConteiner>
-                        <img src={sadakala} />
+                        <img src={loson} />
                         <div className="imagegroup flex gap-5.25">
                             <div className="per">
                                 <p>2d Arcade style experiments</p>
@@ -54,7 +53,7 @@ function GariImage() {
 
                     </GariConteiner>
                     <GariConteiner>
-                        <img src={goru} />
+                        <img src={fish} />
                         <div className="imagegroup flex gap-5.25">
                             <div className="per">
                                 <p>2d Arcade style experiments</p>
@@ -67,10 +66,11 @@ function GariImage() {
                         </div>
 
                     </GariConteiner>
-                </div>
-            </div>
-        </section>
-    )
+                    </div>
+       </div>
+    </section>
+  )
 }
 
-export default GariImage
+export default SecondGari
+
