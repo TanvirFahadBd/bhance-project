@@ -26,7 +26,7 @@ function ForthGoru() {
         </GariConteiner>
                   <GariConteiner>
                         <img src={thambnail} />
-                        <div className="imagegroup flex gap-5.25">
+                        <div className="imagegroup flex justify-between gap-5.25">
                             <div className="per">
                                 <p>2d Arcade style experiments</p>
                                 <p>ARCADE STUDIO</p>
